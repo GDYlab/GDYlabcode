@@ -1,13 +1,13 @@
-This folder contain code for several analyses in the detour project:
-1. Decoding early theta cycles and compute quadrant ratio
-2. Compute and correlate CCG bias across time scales in early laps
-3. Population vector similarity between track segments from pre-detour to detour
-4. Explain post-detour place maps (on two stationary segments) based on pre-detour and detour place maps
-5. Rank order correlation between pre-detour sleep frames and early lap theta cycles
-6. Decoding to get flickering during detour run
-7. Decoding to get flickering during post-detour reversal run
+This folder contains codes for several analyses in the detour project:
+1. Decoding early theta cycles and compute quadrant ratio.
+2. Compute and correlate CCG bias across time scales in early laps.
+3. Population vector similarity between track segments from pre-detour to detour.
+4. Explain post-detour place maps (on two stationary segments) based on pre-detour and detour place maps.
+5. Rank order correlation between pre-detour sleep frames and early lap theta cycles.
+6. Decoding to get flickering during detour run.
+7. Decoding to get flickering during post-detour reversal run.
 
 The matlab file "RunTemplate.m" provides the example of how to run those analyses
-The general data format are explained in "DataStructure". For each function, it explains the data format of inputs and oupts.
+The general data format are explained in "DataStructure". For each function, the documentation explains the data format of the inputs and outputs.
 
 The "RunTemplate.m" can be run directly if you have sample data in "SampleData" folder. To get access to the sample data, please contact the Dragoi's lab: george.dragoi@yale.edu
