@@ -1,0 +1,54 @@
+# ============================================================
+#  Sample data — control which datasets get published
+# ============================================================
+# Policy for the published repo: keep only SampleData/README.md.
+# The per-animal folders (URat1, URat2, ... , XRat1) and all data
+# files are NOT published. To request the real data, contact the
+# Dragoi lab (george.dragoi@yale.edu).
+
+# Exclude everything under SampleData except the top-level README
+SampleData/*
+!SampleData/README.md
+
+!**/README.md
+
+# ============================================================
+#  General data formats (uncomment to also exclude elsewhere)
+# ============================================================
+# *.mat
+# *.npy
+# *.npz
+# *.h5
+# *.hdf5
+# *.csv
+
+# ============================================================
+#  MATLAB
+# ============================================================
+*.asv
+*.m~
+*.mex*
+slprj/
+
+# ============================================================
+#  Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# ============================================================
+#  OS / editor cruft
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.idea/
+.vscode/
+
+# Local Claude Code session files — never publish
+.claude/
